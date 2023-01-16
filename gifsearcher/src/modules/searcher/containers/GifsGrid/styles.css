@@ -1,0 +1,12 @@
+.gifs{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.gifs img{
+    margin: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,62 @@
+.searcher{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.searchPanel{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchInput{
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    border-radius: 45px;
+    margin: 10px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.moreButton{
+    width: 100%;
+    align-self: center;
+    height: 50px;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.moreButton:hover{
+    animation: stripes .75s infinite linear;
+    background: linear-gradient(45deg, rgba(30, 255, 188, 1) 25%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(30, 255, 188, 1) 50%, rgba(30, 255, 188, 1) 75%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1));
+    background-size: 10px 10px;
+    color: #FF50E5;
+}
+
+@keyframes stripes {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 50px 0;
+    }
+  }
